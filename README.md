@@ -1,4 +1,4 @@
-**IT120-SMS Application (send ease)**
+## **IT120-SMS Application (send ease)**
 
 **Overview**
 

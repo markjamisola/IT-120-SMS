@@ -127,6 +127,28 @@
                 </div>
             </div>
             <div class="mb-3">
+                <label for="salutation" class="form-label">Salutation (Greeting)</label>
+                <select class="form-control" id="salutation" name="salutation" required>
+                    <option value="" disabled selected>Choose a greeting</option>
+                    <option value="Good Morning">Good Morning</option>
+                    <option value="Good Afternoon">Good Afternoon</option>
+                    <option value="Good Evening">Good Evening</option>
+                    <option value="Hello">Hello</option>
+                    <option value="Hi">Hi</option>
+                </select>
+            </div>            
+            <div class="mb-3">
+                <label for="recipient_name" class="form-label">Recipient Name</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    id="recipient_name"
+                    name="recipient_name"
+                    placeholder="Enter recipient's name"
+                    required
+                >
+            </div>            
+            <div class="mb-3">
                 <label for="message_body" class="form-label">Message</label>
                 <textarea
                     class="form-control"

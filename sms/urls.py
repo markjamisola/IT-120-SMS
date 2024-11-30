@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from dashboard.views import send_sms
+from dashboard.views import send_sms, welcome_page  # Import the new welcome_page view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', send_sms, name='send_sms'),  # Set the SMS form as the homepage for now
+    path('', welcome_page, name='welcome'),  # Set the welcome page as the homepage
+    path('send-sms/', send_sms, name='send_sms'),  # Set the SMS form route
 ]

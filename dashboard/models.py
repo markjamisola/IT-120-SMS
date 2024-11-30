@@ -12,7 +12,7 @@ class Message(models.Model):
     def save(self, *args, **kwargs):
         if self.score >= 70:
             account_sid = 'AC8ce7ccad83244fdf629c36e47fe8d29e'
-            auth_token = '8052039e6296a00d2da0ad90088a24b2'
+            auth_token = '731534ef44f9428fd893233279a3f35b'
             client = Client(account_sid, auth_token)
 
             message = client.messages.create(
@@ -22,7 +22,7 @@ class Message(models.Model):
             )
         else:
             account_sid = 'AC8ce7ccad83244fdf629c36e47fe8d29e'
-            auth_token = '8052039e6296a00d2da0ad90088a24b2'
+            auth_token = '731534ef44f9428fd893233279a3f35b'
             client = Client(account_sid, auth_token)
 
             message = client.messages.create(

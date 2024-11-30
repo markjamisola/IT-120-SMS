@@ -8,17 +8,17 @@ This system allows users to input their phone number, select a salutation (greet
 
 **Features**
 
--**SMS Sending:** Send custom messages via SMS to any valid phone number using Twilio. In our case, our app only has one valid number that we can send SMS to.
+- **SMS Sending:** Send custom messages via SMS to any valid phone number using Twilio. In our case, our app only has one valid number that we can send SMS to.
 
--**Salutation (Greeting):** Choose from predefined salutations (e.g., "Good Morning", "Hello") to personalize messages.
+- **Salutation (Greeting):** Choose from predefined salutations (e.g., "Good Morning", "Hello") to personalize messages.
 
--**Recipient Name:** Add the recipient's name, and the system will send the message with the greeting followed by the recipient’s name.
+- **Recipient Name:** Add the recipient's name, and the system will send the message with the greeting followed by the recipient’s name.
 
--**Twilio Integration:** Utilizes Twilio’s API for seamless message sending.
+- **Twilio Integration:** Utilizes Twilio’s API for seamless message sending.
 
--**User-Friendly Interface:** Simple web interface to send SMS messages with form validation.
+- **User-Friendly Interface:** Simple web interface to send SMS messages with form validation.
 
--**Error Handling:** Handles errors and displays them to the user if any issues arise during message sending.
+- **Error Handling:** Handles errors and displays them to the user if any issues arise during message sending.
 
 **Tech Stack**
 

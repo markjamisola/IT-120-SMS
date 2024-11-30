@@ -56,6 +56,6 @@ from_='your twilio number',
 
 **Send ease Pages**
 
-http://127.0.0.1:8000/ - Welcome Page
-http://127.0.0.1:8000/send-sms/ - Send SMS Page
-and after sending a SMS a Success Page will be shown
+- http://127.0.0.1:8000/ - Welcome Page
+- http://127.0.0.1:8000/send-sms/ - Send SMS Page
+- and after sending a SMS a Success Page will be shown

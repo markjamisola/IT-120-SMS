@@ -35,7 +35,7 @@ git clone https://github.com/markjamisola/IT-120-SMS
 
 After cloning you can try to run the program by typing
 - **python manage.py runserver**
-on your vscode terminal.
+  on your vscode terminal.
 
 ## **Configuration**
 
@@ -47,7 +47,7 @@ After creating an account, find your **Account SID** and **Auth Token** from the
 You will also need a **Twilio phone number** to send messages. You can get one from the Twilio console.
 
 After getting your **Account SID**, **Auth Token**, and **Twilio phone number**, you can change the existing Twilio Credentials located on 
-- **dashboard/views.py **
+- **dashboard/views.py**
 
 **# Twilio credentials**
 

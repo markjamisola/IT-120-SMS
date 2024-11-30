@@ -2,9 +2,9 @@
 
 **Overview**
 
-The IT120-SMS Application is a Django-based web application designed for sending SMS messages. The application integrates with Twilio, a cloud communications platform, to send messages from a Twilio phone number to the recipient's mobile phone number.
+- The IT120-SMS Application is a Django-based web application designed for sending SMS messages. The application integrates with Twilio, a cloud communications platform, to send messages from a Twilio phone number to the recipient's mobile phone number.
 
-This system allows users to input their phone number, select a salutation (greeting), enter the recipient's name, compose a custom message, and send it via SMS. The app ensures seamless communication between the sender and the recipient.
+- This system allows users to input their phone number, select a salutation (greeting), enter the recipient's name, compose a custom message, and send it via SMS. The app ensures seamless communication between the sender and the recipient.
 
 **Features**
 
@@ -22,10 +22,10 @@ This system allows users to input their phone number, select a salutation (greet
 
 **Tech Stack**
 
-**Backend Framework:** Django 5.1.3
-**Programming Language:** Python 3.12.1
-**Twilio API:** For sending SMS messages
-**Frontend:** HTML, CSS (Bootstrap for UI styling)
+- **Backend Framework:** Django 5.1.3
+- **Programming Language:** Python 3.12.1
+- **Twilio API:** For sending SMS messages
+- **Frontend:** HTML, CSS (Bootstrap for UI styling)
 
 
 **Installation Guide / Running the Application**
@@ -47,11 +47,11 @@ You will also need a Twilio phone number to send messages. You can get one from 
 
 After getting your Account SID, Auth Token, and Twilio phone number, you can change the existing Twilio Credentials located on dashboard/views.py 
 
-**# Twilio credentials**
+- **# Twilio credentials**
 
-account_sid = 'your twilio sid'
-auth_token = 'your twilio token'
-from_='your twilio number',
+- account_sid = 'your twilio sid'
+- auth_token = 'your twilio token'
+- from_='your twilio number',
 
 
 **Send ease Pages**
